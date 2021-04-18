@@ -1,0 +1,11 @@
+{
+  "name": "4343",
+  "version": "4.3.0",
+  "description": "d",
+  "main": "map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

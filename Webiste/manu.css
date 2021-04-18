@@ -1,0 +1,30 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 0;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+  padding-left: 15px !important;
+}
+
+.column {
+  flex: 33.33%;
+  padding-left: 0;
+
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100% !important;
+  }
+}
